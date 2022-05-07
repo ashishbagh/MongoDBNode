@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Product = require("./models/products");
 const url =
-  "mongodb+srv://As420116:Ashish1234@practice.sgnnn.mongodb.net/retails?retryWrites=true&w=majority";
+  "mongodb+srv://usename:password@practice.sgnnn.mongodb.net/retails?retryWrites=true&w=majority";
 // It uses connection cooling and manage open and close connection
 mongoose
   .connect(url)
