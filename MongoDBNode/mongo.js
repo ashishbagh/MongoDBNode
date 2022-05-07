@@ -1,6 +1,6 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const url =
-  "mongodb+srv://As420116:Ashish1234@practice.sgnnn.mongodb.net/retails?retryWrites=true&w=majority";
+  "mongodb+srv://usename:password@practice.sgnnn.mongodb.net/retails?retryWrites=true&w=majority";
 
 const createProduct = async (req, res, next) => {
   const newProduct = {
